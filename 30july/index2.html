@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Document</title>
+    <style>
+        .sangram{
+            height: 350px;
+            width: 300px;
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        .sangram:nth-child(1) > .box{background-color: red;}
+        .sangram:nth-child(2) > .box{background-color:blue;}
+        </style>
+</head>
+<body>
+    <div class="sangram">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="sangram">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
